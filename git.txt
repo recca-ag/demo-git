@@ -1,0 +1,26 @@
+Tạo git master trên git trong máy
+
+1. Tạo thư mục master --> git clone coppy đường dẫn về máy.
+2. git status hiển thị file thay đổi màu đỏ, màu vàng không thay đổi.
+3. git add . -->update file thay đổi.
+4. git commit -m "comment".
+5. cấu hình lại tài khoản lần đầu tiên nếu có -->a.git config --global "user.name"
+                                                 b.git config --global "user.email"
+                                                 c.git push origin mater --> đăng nhập tài khoản
+
+Tạo branch mới
+1. "git checkout -b recca " tạo 1 branch mới
+2. "git branch" (hiển thị branch hiện tại)
+3. "git push -u origin recca" tạo git push lần đầu
+4. chuyển branch "git checkout master", nhìn góc 7h màn hình destop thấy chữ master
+5. git pull lấy code mới về
+
+Cập nhật project
+cập nhật code khi code mới chưa cập nhật
+	B1. checkout master
+	B1. pull master
+	B.3 check out recca
+	B4. merge master -->recca(cú pháp: git merge master -->recca)
+
+Mời người khác vào githud
+1. Setting -->manager access--> invite email
